@@ -3,7 +3,7 @@ cask "ftm510d" do
   name "ftm510d"
   desc "Programmer for the Yaesu FTM-510D"
   homepage "https://github.com/zm0ra/ftm510d-releases"
-  version "0.9.2"
+  version "0.9.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ftm510d" do
   on_macos do
     on_intel do
       url "https://github.com/zm0ra/ftm510d-releases/releases/download/v#{version}/ftm510d_#{version}_darwin_amd64.tar.gz"
-      sha256 "b0caf583d01ea747f8fda5efef86ca4ae0e8bd13b95763178f25073dec66750b"
+      sha256 "5ceb2cae29dc82ff1157d9d62b9aafaba01d85f8c6e343ce51f4ebbde4eaf961"
     end
     on_arm do
       url "https://github.com/zm0ra/ftm510d-releases/releases/download/v#{version}/ftm510d_#{version}_darwin_arm64.tar.gz"
-      sha256 "de5ca6e22b7b4b6df9c61e3cfb03affcd966aef3a9f5f9e061de1eba5a7a61e5"
+      sha256 "cb5c4294f8ff449d05bc7ea259589cab6dd4d76cdf6b1646bde30ad7f5f6c4a6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/zm0ra/ftm510d-releases/releases/download/v#{version}/ftm510d_#{version}_linux_amd64.tar.gz"
-      sha256 "c4f3fa468c8ddbae79a67b78f09c9c30b2bbdbcd566b100257d504808beb6d76"
+      sha256 "14c12a18e61c819a9b9fedb0d9f1f8d09411bb18245b2eaa28d51fc7e859446a"
     end
     on_arm do
       url "https://github.com/zm0ra/ftm510d-releases/releases/download/v#{version}/ftm510d_#{version}_linux_arm64.tar.gz"
-      sha256 "0aedc57b31438f3bf201a56a132eb6fa44979d3fc16d471e810ad829a3049ce8"
+      sha256 "02a9824bbf7ce9365302c3999ed2f91b8db92b09196ff00addb511d39c30a517"
     end
   end
 
